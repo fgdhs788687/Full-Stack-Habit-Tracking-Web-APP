@@ -1,0 +1,32 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.19.2",
+    "bcrypt==4.0.1",
+    "fastapi>=0.141.1",
+    "httpx2>=2.12.0",
+    "langchain>=1.4.0",
+    "langchain-openai>=1.6.2",
+    "passlib[bcrypt]>=1.7.4",
+    "psycopg2-binary>=2.9.12",
+    "pydantic-settings>=2.15.0",
+    "pydantic[email]>=2.13.4",
+    "pyjwt>=2.13.0",
+    "python-dotenv>=1.2.3",
+    "python-jose>=3.5.0",
+    "python-multipart>=0.0.32",
+    "slowapi>=0.1.10",
+    "sqlalchemy>=2.0.52",
+    "tzdata>=2026.3",
+    "uvicorn>=0.52.4",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+]
