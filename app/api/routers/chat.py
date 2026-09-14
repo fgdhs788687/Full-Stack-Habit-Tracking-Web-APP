@@ -10,6 +10,7 @@ from app.utils.timezone_utils import get_user_local_date, calculate_streaks
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from langchain.messages import HumanMessage, AIMessage, SystemMessage
+# from pprint import pprint # (dev specific)
 
 router = APIRouter()
 
@@ -94,7 +95,7 @@ def chatting(request: Request,chat: ChatMessage, user:current_user, db: db_sessi
     )
     db.add_all([db_user_msg, db_ai_msg])
     db.commit()
-    
+    # pprint(ai_response_text) # To see the output in the terminal (dev specific)
     return {'response': ai_response_text}
 
     

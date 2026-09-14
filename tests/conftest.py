@@ -1,3 +1,7 @@
+import os
+os.environ['TESTING'] = 'true'
+
+
 import pytest
 from fastapi.testclient import TestClient
 from sqlalchemy.orm import sessionmaker
