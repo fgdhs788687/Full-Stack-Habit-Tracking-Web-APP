@@ -2,7 +2,7 @@
 
 Production-ready backend architecture built with FastAPI, SQLAlchemy, Alembic, and modern Python tooling.
 
-### 🚀 Live Deployment
+### 🚀 Live Deployment (Backend)
 * **API Base URL:** [https://habit-tracking-backend-awap.onrender.com](https://habit-tracking-backend-awap.onrender.com)
 * **Interactive Documentation:** Use [https://habit-tracking-backend-awap.onrender.com/docs](https://habit-tracking-backend-awap.onrender.com/docs) to explore and test all available endpoints directly in your browser.
 
